@@ -14,10 +14,12 @@ public class MainPrototype {
         System.out.println("Original Prototype: " + prototype);
         System.out.println("Cloned Prototype: " + clonedPrototype);
         System.out.println("São objetos diferentes? " + (prototype != clonedPrototype));
+
         System.out.println("---------------------------------------------------");
         clonedPrototype.setName("Cloned");
         System.out.println("Após alterar o nome do clone:" + clonedPrototype);
         System.out.println("---------------------------------------------------");
+
         clonedPrototype.getAddress().getFirst().setStreet("Rua do Sol");
         System.out.println("Endereço do original após alteração no clone: " + prototype.getAddress());
         System.out.println("Endereço do clone após alteração: " + clonedPrototype.getAddress());

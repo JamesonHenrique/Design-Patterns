@@ -5,9 +5,11 @@ public class MainBuilder {
      PrincipalDishBuilder principalDishBuilder = new PrincipalDishBuilder();
      principalDishBuilder.makeMeal();
      System.out.println(principalDishBuilder.getPrice());
+
      principalDishBuilder.reset();
      principalDishBuilder.makeBeverage();
      System.out.println(principalDishBuilder.getPrice());
+
      System.out.println("---------------------------------");
      VeganDishBuilder veganDishBuilder = new VeganDishBuilder();
      veganDishBuilder.makeMeal();
