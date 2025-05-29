@@ -1,18 +1,12 @@
 package creational.builder;
 
+import structural.facade.BuilderFacade;
+
 public class MainBuilder {
     public static void main(String[] args) {
-     PrincipalDishBuilder principalDishBuilder = new PrincipalDishBuilder();
-     principalDishBuilder.makeMeal();
-     System.out.println(principalDishBuilder.getPrice());
-
-     principalDishBuilder.reset();
-     principalDishBuilder.makeBeverage();
-     System.out.println(principalDishBuilder.getPrice());
-
-     System.out.println("---------------------------------");
-     VeganDishBuilder veganDishBuilder = new VeganDishBuilder();
-     veganDishBuilder.makeMeal();
-     System.out.println(veganDishBuilder.getPrice());
+     BuilderFacade builderFacade = new BuilderFacade();
+     builderFacade.makeMeal1();
+     builderFacade.makeMeal2();
+     builderFacade.makeMeal3();
     }
 }
