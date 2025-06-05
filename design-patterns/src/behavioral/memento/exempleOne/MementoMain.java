@@ -1,4 +1,4 @@
-package behavioral.memento;
+package behavioral.memento.exempleOne;
 
 public class MementoMain {
     public static void main(String[] args) {
