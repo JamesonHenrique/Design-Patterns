@@ -1,0 +1,21 @@
+Nome;Idade;CPF
+João Silva;34;123.456.789-01
+Maria Oliveira;28;987.654.321-09
+Carlos Souza;41;456.123.789-55
+Fernanda Costa;25;789.456.123-22
+Ricardo Almeida;50;321.654.987-33
+Patrícia Santos;31;654.321.987-11
+André Lima;29;741.852.963-44
+Juliana Martins;38;963.852.741-66
+Bruno Rocha;45;159.753.486-77
+Larissa Ferreira;27;357.951.258-88
+Lucas Barbosa;33;258.147.369-99
+Aline Gomes;42;369.258.147-00
+Marcelo Pinto;36;852.963.741-12
+Sabrina Teixeira;30;741.963.852-23
+Paulo Correia;47;147.258.369-34
+Camila Ribeiro;26;369.147.258-45
+Eduardo Cardoso;39;258.369.147-56
+Tatiane Melo;32;147.369.258-67
+Fábio Moreira;40;963.741.852-78
+Roberta Nunes;35;852.741.963-89
