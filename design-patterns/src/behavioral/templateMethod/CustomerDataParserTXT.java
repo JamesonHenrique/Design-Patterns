@@ -20,7 +20,7 @@ public  class CustomerDataParserTXT extends CustomerDataParser {
             String line;
             boolean first = true;
             while ((line = br.readLine()) != null) {
-                if (first) { first = false; continue; } // pular cabeçalho
+                if (first) { first = false; continue; }
                 String[] parts = line.split(";");
                 if (parts.length >= 3) {
                     CustomerData cd = new CustomerData(

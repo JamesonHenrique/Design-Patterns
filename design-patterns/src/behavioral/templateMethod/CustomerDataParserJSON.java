@@ -19,7 +19,7 @@ public class CustomerDataParserJSON extends CustomerDataParser {
             throw new IOException("Apenas arrays simples suportados");
 
         raw = raw.substring(1, raw.length() - 1);
-        String[] objs = raw.split("(?<=\\}),\\s*(?=\\{)");
+        String[] objs = raw.split("(?<=}),\\s*(?=\\{)");
 
         List<CustomerData> list = new ArrayList<>();
         for (String o : objs) {
